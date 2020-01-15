@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2978054323CF1BC7008AE2DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978054223CF1BC7008AE2DD /* AppDelegate.swift */; };
+		2978054523CF1BC7008AE2DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978054423CF1BC7008AE2DD /* SceneDelegate.swift */; };
+		2978054723CF1BC7008AE2DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978054623CF1BC7008AE2DD /* ViewController.swift */; };
+		2978054A23CF1BC7008AE2DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2978054823CF1BC7008AE2DD /* Main.storyboard */; };
+		2978054C23CF1BCA008AE2DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2978054B23CF1BCA008AE2DD /* Assets.xcassets */; };
+		2978054F23CF1BCA008AE2DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2978054D23CF1BCA008AE2DD /* LaunchScreen.storyboard */; };
+		2978055A23CF1BCB008AE2DD /* XRPMessagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978055923CF1BCB008AE2DD /* XRPMessagerTests.swift */; };
+		2978056523CF1BCB008AE2DD /* XRPMessagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978056423CF1BCB008AE2DD /* XRPMessagerUITests.swift */; };
+		2978058723CF8E73008AE2DD /* RippleBlockchainProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978058623CF8E73008AE2DD /* RippleBlockchainProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2978055623CF1BCA008AE2DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2978053723CF1BC7008AE2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2978053E23CF1BC7008AE2DD;
+			remoteInfo = XRPMessager;
+		};
+		2978056123CF1BCB008AE2DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2978053723CF1BC7008AE2DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2978053E23CF1BC7008AE2DD;
+			remoteInfo = XRPMessager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2978053F23CF1BC7008AE2DD /* XRPMessager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XRPMessager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2978054223CF1BC7008AE2DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2978054423CF1BC7008AE2DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2978054623CF1BC7008AE2DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2978054923CF1BC7008AE2DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2978054B23CF1BCA008AE2DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2978054E23CF1BCA008AE2DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2978055023CF1BCA008AE2DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2978055523CF1BCA008AE2DD /* XRPMessagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XRPMessagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2978055923CF1BCB008AE2DD /* XRPMessagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XRPMessagerTests.swift; sourceTree = "<group>"; };
+		2978055B23CF1BCB008AE2DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2978056023CF1BCB008AE2DD /* XRPMessagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XRPMessagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2978056423CF1BCB008AE2DD /* XRPMessagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XRPMessagerUITests.swift; sourceTree = "<group>"; };
+		2978056623CF1BCB008AE2DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2978058623CF8E73008AE2DD /* RippleBlockchainProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleBlockchainProperties.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2978053C23CF1BC7008AE2DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2978055223CF1BCA008AE2DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2978055D23CF1BCB008AE2DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2978053623CF1BC7008AE2DD = {
+			isa = PBXGroup;
+			children = (
+				2978054123CF1BC7008AE2DD /* XRPMessager */,
+				2978055823CF1BCB008AE2DD /* XRPMessagerTests */,
+				2978056323CF1BCB008AE2DD /* XRPMessagerUITests */,
+				2978054023CF1BC7008AE2DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2978054023CF1BC7008AE2DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2978053F23CF1BC7008AE2DD /* XRPMessager.app */,
+				2978055523CF1BCA008AE2DD /* XRPMessagerTests.xctest */,
+				2978056023CF1BCB008AE2DD /* XRPMessagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2978054123CF1BC7008AE2DD /* XRPMessager */ = {
+			isa = PBXGroup;
+			children = (
+				2978054223CF1BC7008AE2DD /* AppDelegate.swift */,
+				2978054B23CF1BCA008AE2DD /* Assets.xcassets */,
+				2978057223CF1BD7008AE2DD /* Core */,
+				2978055023CF1BCA008AE2DD /* Info.plist */,
+				2978054D23CF1BCA008AE2DD /* LaunchScreen.storyboard */,
+				2978054823CF1BC7008AE2DD /* Main.storyboard */,
+				2978054423CF1BC7008AE2DD /* SceneDelegate.swift */,
+				2978054623CF1BC7008AE2DD /* ViewController.swift */,
+			);
+			path = XRPMessager;
+			sourceTree = "<group>";
+		};
+		2978055823CF1BCB008AE2DD /* XRPMessagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2978055923CF1BCB008AE2DD /* XRPMessagerTests.swift */,
+				2978055B23CF1BCB008AE2DD /* Info.plist */,
+			);
+			path = XRPMessagerTests;
+			sourceTree = "<group>";
+		};
+		2978056323CF1BCB008AE2DD /* XRPMessagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2978056423CF1BCB008AE2DD /* XRPMessagerUITests.swift */,
+				2978056623CF1BCB008AE2DD /* Info.plist */,
+			);
+			path = XRPMessagerUITests;
+			sourceTree = "<group>";
+		};
+		2978057223CF1BD7008AE2DD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2978058423CF8E25008AE2DD /* dto */,
+				2978058323CF1E26008AE2DD /* converter */,
+				2978057823CF1CD0008AE2DD /* config */,
+				2978057A23CF1CEB008AE2DD /* constants */,
+				2978057623CF1CB1008AE2DD /* integration */,
+				2978057423CF1C78008AE2DD /* properties */,
+				2978057923CF1CD3008AE2DD /* service */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2978057423CF1C78008AE2DD /* properties */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = properties;
+			sourceTree = "<group>";
+		};
+		2978057623CF1CB1008AE2DD /* integration */ = {
+			isa = PBXGroup;
+			children = (
+				2978057C23CF1D14008AE2DD /* js */,
+				2978057B23CF1D01008AE2DD /* blockchain */,
+			);
+			path = integration;
+			sourceTree = "<group>";
+		};
+		2978057823CF1CD0008AE2DD /* config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		2978057923CF1CD3008AE2DD /* service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		2978057A23CF1CEB008AE2DD /* constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = constants;
+			sourceTree = "<group>";
+		};
+		2978057B23CF1D01008AE2DD /* blockchain */ = {
+			isa = PBXGroup;
+			children = (
+				2978058523CF8E46008AE2DD /* xrp */,
+			);
+			path = blockchain;
+			sourceTree = "<group>";
+		};
+		2978057C23CF1D14008AE2DD /* js */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		2978057D23CF1D2A008AE2DD /* rest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = rest;
+			sourceTree = "<group>";
+		};
+		2978057E23CF1D32008AE2DD /* dto */ = {
+			isa = PBXGroup;
+			children = (
+				2978058123CF1D55008AE2DD /* response */,
+				2978058023CF1D52008AE2DD /* request */,
+			);
+			path = dto;
+			sourceTree = "<group>";
+		};
+		2978057F23CF1D4D008AE2DD /* properties */ = {
+			isa = PBXGroup;
+			children = (
+				2978058623CF8E73008AE2DD /* RippleBlockchainProperties.swift */,
+			);
+			path = properties;
+			sourceTree = "<group>";
+		};
+		2978058023CF1D52008AE2DD /* request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = request;
+			sourceTree = "<group>";
+		};
+		2978058123CF1D55008AE2DD /* response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = response;
+			sourceTree = "<group>";
+		};
+		2978058223CF1D6A008AE2DD /* uri */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = uri;
+			sourceTree = "<group>";
+		};
+		2978058323CF1E26008AE2DD /* converter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = converter;
+			sourceTree = "<group>";
+		};
+		2978058423CF8E25008AE2DD /* dto */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = dto;
+			sourceTree = "<group>";
+		};
+		2978058523CF8E46008AE2DD /* xrp */ = {
+			isa = PBXGroup;
+			children = (
+				2978058223CF1D6A008AE2DD /* uri */,
+				2978057F23CF1D4D008AE2DD /* properties */,
+				2978057E23CF1D32008AE2DD /* dto */,
+				2978057D23CF1D2A008AE2DD /* rest */,
+			);
+			path = xrp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2978053E23CF1BC7008AE2DD /* XRPMessager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2978056923CF1BCB008AE2DD /* Build configuration list for PBXNativeTarget "XRPMessager" */;
+			buildPhases = (
+				2978053B23CF1BC7008AE2DD /* Sources */,
+				2978053C23CF1BC7008AE2DD /* Frameworks */,
+				2978053D23CF1BC7008AE2DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XRPMessager;
+			productName = XRPMessager;
+			productReference = 2978053F23CF1BC7008AE2DD /* XRPMessager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2978055423CF1BCA008AE2DD /* XRPMessagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2978056C23CF1BCB008AE2DD /* Build configuration list for PBXNativeTarget "XRPMessagerTests" */;
+			buildPhases = (
+				2978055123CF1BCA008AE2DD /* Sources */,
+				2978055223CF1BCA008AE2DD /* Frameworks */,
+				2978055323CF1BCA008AE2DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2978055723CF1BCA008AE2DD /* PBXTargetDependency */,
+			);
+			name = XRPMessagerTests;
+			productName = XRPMessagerTests;
+			productReference = 2978055523CF1BCA008AE2DD /* XRPMessagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2978055F23CF1BCB008AE2DD /* XRPMessagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2978056F23CF1BCB008AE2DD /* Build configuration list for PBXNativeTarget "XRPMessagerUITests" */;
+			buildPhases = (
+				2978055C23CF1BCB008AE2DD /* Sources */,
+				2978055D23CF1BCB008AE2DD /* Frameworks */,
+				2978055E23CF1BCB008AE2DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2978056223CF1BCB008AE2DD /* PBXTargetDependency */,
+			);
+			name = XRPMessagerUITests;
+			productName = XRPMessagerUITests;
+			productReference = 2978056023CF1BCB008AE2DD /* XRPMessagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2978053723CF1BC7008AE2DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Pasha Suprun";
+				TargetAttributes = {
+					2978053E23CF1BC7008AE2DD = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					2978055423CF1BCA008AE2DD = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 2978053E23CF1BC7008AE2DD;
+					};
+					2978055F23CF1BCB008AE2DD = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 2978053E23CF1BC7008AE2DD;
+					};
+				};
+			};
+			buildConfigurationList = 2978053A23CF1BC7008AE2DD /* Build configuration list for PBXProject "XRPMessager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2978053623CF1BC7008AE2DD;
+			productRefGroup = 2978054023CF1BC7008AE2DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2978053E23CF1BC7008AE2DD /* XRPMessager */,
+				2978055423CF1BCA008AE2DD /* XRPMessagerTests */,
+				2978055F23CF1BCB008AE2DD /* XRPMessagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2978053D23CF1BC7008AE2DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2978054F23CF1BCA008AE2DD /* LaunchScreen.storyboard in Resources */,
+				2978054C23CF1BCA008AE2DD /* Assets.xcassets in Resources */,
+				2978054A23CF1BC7008AE2DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2978055323CF1BCA008AE2DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2978055E23CF1BCB008AE2DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2978053B23CF1BC7008AE2DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2978058723CF8E73008AE2DD /* RippleBlockchainProperties.swift in Sources */,
+				2978054723CF1BC7008AE2DD /* ViewController.swift in Sources */,
+				2978054323CF1BC7008AE2DD /* AppDelegate.swift in Sources */,
+				2978054523CF1BC7008AE2DD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2978055123CF1BCA008AE2DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2978055A23CF1BCB008AE2DD /* XRPMessagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2978055C23CF1BCB008AE2DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2978056523CF1BCB008AE2DD /* XRPMessagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2978055723CF1BCA008AE2DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2978053E23CF1BC7008AE2DD /* XRPMessager */;
+			targetProxy = 2978055623CF1BCA008AE2DD /* PBXContainerItemProxy */;
+		};
+		2978056223CF1BCB008AE2DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2978053E23CF1BC7008AE2DD /* XRPMessager */;
+			targetProxy = 2978056123CF1BCB008AE2DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2978054823CF1BC7008AE2DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2978054923CF1BC7008AE2DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2978054D23CF1BCA008AE2DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2978054E23CF1BCA008AE2DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2978056723CF1BCB008AE2DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2978056823CF1BCB008AE2DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2978056A23CF1BCB008AE2DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2HSHP8W65;
+				INFOPLIST_FILE = XRPMessager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hatiko.XRPMessager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2978056B23CF1BCB008AE2DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2HSHP8W65;
+				INFOPLIST_FILE = XRPMessager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hatiko.XRPMessager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2978056D23CF1BCB008AE2DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2HSHP8W65;
+				INFOPLIST_FILE = XRPMessagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hatiko.XRPMessagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XRPMessager.app/XRPMessager";
+			};
+			name = Debug;
+		};
+		2978056E23CF1BCB008AE2DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2HSHP8W65;
+				INFOPLIST_FILE = XRPMessagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hatiko.XRPMessagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XRPMessager.app/XRPMessager";
+			};
+			name = Release;
+		};
+		2978057023CF1BCB008AE2DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2HSHP8W65;
+				INFOPLIST_FILE = XRPMessagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hatiko.XRPMessagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XRPMessager;
+			};
+			name = Debug;
+		};
+		2978057123CF1BCB008AE2DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2HSHP8W65;
+				INFOPLIST_FILE = XRPMessagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hatiko.XRPMessagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XRPMessager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2978053A23CF1BC7008AE2DD /* Build configuration list for PBXProject "XRPMessager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2978056723CF1BCB008AE2DD /* Debug */,
+				2978056823CF1BCB008AE2DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2978056923CF1BCB008AE2DD /* Build configuration list for PBXNativeTarget "XRPMessager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2978056A23CF1BCB008AE2DD /* Debug */,
+				2978056B23CF1BCB008AE2DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2978056C23CF1BCB008AE2DD /* Build configuration list for PBXNativeTarget "XRPMessagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2978056D23CF1BCB008AE2DD /* Debug */,
+				2978056E23CF1BCB008AE2DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2978056F23CF1BCB008AE2DD /* Build configuration list for PBXNativeTarget "XRPMessagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2978057023CF1BCB008AE2DD /* Debug */,
+				2978057123CF1BCB008AE2DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2978053723CF1BC7008AE2DD /* Project object */;
+}
