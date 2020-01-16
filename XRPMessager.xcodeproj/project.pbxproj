@@ -16,6 +16,15 @@
 		2978055A23CF1BCB008AE2DD /* XRPMessagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978055923CF1BCB008AE2DD /* XRPMessagerTests.swift */; };
 		2978056523CF1BCB008AE2DD /* XRPMessagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978056423CF1BCB008AE2DD /* XRPMessagerUITests.swift */; };
 		2978058723CF8E73008AE2DD /* RippleBlockchainProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978058623CF8E73008AE2DD /* RippleBlockchainProperties.swift */; };
+		2978058923CF9485008AE2DD /* RippleAccountInfoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978058823CF9485008AE2DD /* RippleAccountInfoRequest.swift */; };
+		2978058B23CF94FC008AE2DD /* RippleTransactionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978058A23CF94FC008AE2DD /* RippleTransactionRequest.swift */; };
+		2978058D23CF95A8008AE2DD /* RippleTrxByHashRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978058C23CF95A8008AE2DD /* RippleTrxByHashRequest.swift */; };
+		2978058F23CF963F008AE2DD /* RippleWithdrawRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978058E23CF963F008AE2DD /* RippleWithdrawRequest.swift */; };
+		2978059123CF99EE008AE2DD /* RippleAccountInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978059023CF99EE008AE2DD /* RippleAccountInfoResponse.swift */; };
+		2978059523CFB83D008AE2DD /* RippleTransactionsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978059423CFB83D008AE2DD /* RippleTransactionsResponse.swift */; };
+		2978059723CFB925008AE2DD /* TransactionBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978059623CFB925008AE2DD /* TransactionBody.swift */; };
+		2978059923D046C9008AE2DD /* RippleTrxByHashResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978059823D046C9008AE2DD /* RippleTrxByHashResponse.swift */; };
+		2978059B23D04709008AE2DD /* RippleWithdrawResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978059A23D04709008AE2DD /* RippleWithdrawResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,15 @@
 		2978056423CF1BCB008AE2DD /* XRPMessagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XRPMessagerUITests.swift; sourceTree = "<group>"; };
 		2978056623CF1BCB008AE2DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2978058623CF8E73008AE2DD /* RippleBlockchainProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleBlockchainProperties.swift; sourceTree = "<group>"; };
+		2978058823CF9485008AE2DD /* RippleAccountInfoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleAccountInfoRequest.swift; sourceTree = "<group>"; };
+		2978058A23CF94FC008AE2DD /* RippleTransactionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleTransactionRequest.swift; sourceTree = "<group>"; };
+		2978058C23CF95A8008AE2DD /* RippleTrxByHashRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleTrxByHashRequest.swift; sourceTree = "<group>"; };
+		2978058E23CF963F008AE2DD /* RippleWithdrawRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleWithdrawRequest.swift; sourceTree = "<group>"; };
+		2978059023CF99EE008AE2DD /* RippleAccountInfoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleAccountInfoResponse.swift; sourceTree = "<group>"; };
+		2978059423CFB83D008AE2DD /* RippleTransactionsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleTransactionsResponse.swift; sourceTree = "<group>"; };
+		2978059623CFB925008AE2DD /* TransactionBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionBody.swift; sourceTree = "<group>"; };
+		2978059823D046C9008AE2DD /* RippleTrxByHashResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleTrxByHashResponse.swift; sourceTree = "<group>"; };
+		2978059A23D04709008AE2DD /* RippleWithdrawResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleWithdrawResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +99,10 @@
 		2978053623CF1BC7008AE2DD = {
 			isa = PBXGroup;
 			children = (
+				2978054023CF1BC7008AE2DD /* Products */,
 				2978054123CF1BC7008AE2DD /* XRPMessager */,
 				2978055823CF1BCB008AE2DD /* XRPMessagerTests */,
 				2978056323CF1BCB008AE2DD /* XRPMessagerUITests */,
-				2978054023CF1BC7008AE2DD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,10 +152,10 @@
 		2978057223CF1BD7008AE2DD /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				2978058423CF8E25008AE2DD /* dto */,
-				2978058323CF1E26008AE2DD /* converter */,
 				2978057823CF1CD0008AE2DD /* config */,
 				2978057A23CF1CEB008AE2DD /* constants */,
+				2978058323CF1E26008AE2DD /* converter */,
+				2978058423CF8E25008AE2DD /* dto */,
 				2978057623CF1CB1008AE2DD /* integration */,
 				2978057423CF1C78008AE2DD /* properties */,
 				2978057923CF1CD3008AE2DD /* service */,
@@ -207,8 +225,8 @@
 		2978057E23CF1D32008AE2DD /* dto */ = {
 			isa = PBXGroup;
 			children = (
-				2978058123CF1D55008AE2DD /* response */,
 				2978058023CF1D52008AE2DD /* request */,
+				2978058123CF1D55008AE2DD /* response */,
 			);
 			path = dto;
 			sourceTree = "<group>";
@@ -224,6 +242,10 @@
 		2978058023CF1D52008AE2DD /* request */ = {
 			isa = PBXGroup;
 			children = (
+				2978058823CF9485008AE2DD /* RippleAccountInfoRequest.swift */,
+				2978058A23CF94FC008AE2DD /* RippleTransactionRequest.swift */,
+				2978058C23CF95A8008AE2DD /* RippleTrxByHashRequest.swift */,
+				2978058E23CF963F008AE2DD /* RippleWithdrawRequest.swift */,
 			);
 			path = request;
 			sourceTree = "<group>";
@@ -231,6 +253,11 @@
 		2978058123CF1D55008AE2DD /* response */ = {
 			isa = PBXGroup;
 			children = (
+				2978059023CF99EE008AE2DD /* RippleAccountInfoResponse.swift */,
+				2978059423CFB83D008AE2DD /* RippleTransactionsResponse.swift */,
+				2978059823D046C9008AE2DD /* RippleTrxByHashResponse.swift */,
+				2978059A23D04709008AE2DD /* RippleWithdrawResponse.swift */,
+				2978059623CFB925008AE2DD /* TransactionBody.swift */,
 			);
 			path = response;
 			sourceTree = "<group>";
@@ -259,10 +286,10 @@
 		2978058523CF8E46008AE2DD /* xrp */ = {
 			isa = PBXGroup;
 			children = (
-				2978058223CF1D6A008AE2DD /* uri */,
-				2978057F23CF1D4D008AE2DD /* properties */,
 				2978057E23CF1D32008AE2DD /* dto */,
+				2978057F23CF1D4D008AE2DD /* properties */,
 				2978057D23CF1D2A008AE2DD /* rest */,
+				2978058223CF1D6A008AE2DD /* uri */,
 			);
 			path = xrp;
 			sourceTree = "<group>";
@@ -398,9 +425,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2978059923D046C9008AE2DD /* RippleTrxByHashResponse.swift in Sources */,
+				2978058B23CF94FC008AE2DD /* RippleTransactionRequest.swift in Sources */,
+				2978059723CFB925008AE2DD /* TransactionBody.swift in Sources */,
 				2978058723CF8E73008AE2DD /* RippleBlockchainProperties.swift in Sources */,
+				2978058923CF9485008AE2DD /* RippleAccountInfoRequest.swift in Sources */,
+				2978058D23CF95A8008AE2DD /* RippleTrxByHashRequest.swift in Sources */,
 				2978054723CF1BC7008AE2DD /* ViewController.swift in Sources */,
+				2978058F23CF963F008AE2DD /* RippleWithdrawRequest.swift in Sources */,
 				2978054323CF1BC7008AE2DD /* AppDelegate.swift in Sources */,
+				2978059B23D04709008AE2DD /* RippleWithdrawResponse.swift in Sources */,
+				2978059123CF99EE008AE2DD /* RippleAccountInfoResponse.swift in Sources */,
+				2978059523CFB83D008AE2DD /* RippleTransactionsResponse.swift in Sources */,
 				2978054523CF1BC7008AE2DD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
