@@ -25,6 +25,7 @@
 		2978059723CFB925008AE2DD /* TransactionBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978059623CFB925008AE2DD /* TransactionBody.swift */; };
 		2978059923D046C9008AE2DD /* RippleTrxByHashResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978059823D046C9008AE2DD /* RippleTrxByHashResponse.swift */; };
 		2978059B23D04709008AE2DD /* RippleWithdrawResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978059A23D04709008AE2DD /* RippleWithdrawResponse.swift */; };
+		2978059D23D04985008AE2DD /* RippleBlockchainUriBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978059C23D04985008AE2DD /* RippleBlockchainUriBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		2978059623CFB925008AE2DD /* TransactionBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionBody.swift; sourceTree = "<group>"; };
 		2978059823D046C9008AE2DD /* RippleTrxByHashResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleTrxByHashResponse.swift; sourceTree = "<group>"; };
 		2978059A23D04709008AE2DD /* RippleWithdrawResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleWithdrawResponse.swift; sourceTree = "<group>"; };
+		2978059C23D04985008AE2DD /* RippleBlockchainUriBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleBlockchainUriBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,6 +267,7 @@
 		2978058223CF1D6A008AE2DD /* uri */ = {
 			isa = PBXGroup;
 			children = (
+				2978059C23D04985008AE2DD /* RippleBlockchainUriBuilder.swift */,
 			);
 			path = uri;
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 				2978058B23CF94FC008AE2DD /* RippleTransactionRequest.swift in Sources */,
 				2978059723CFB925008AE2DD /* TransactionBody.swift in Sources */,
 				2978058723CF8E73008AE2DD /* RippleBlockchainProperties.swift in Sources */,
+				2978059D23D04985008AE2DD /* RippleBlockchainUriBuilder.swift in Sources */,
 				2978058923CF9485008AE2DD /* RippleAccountInfoRequest.swift in Sources */,
 				2978058D23CF95A8008AE2DD /* RippleTrxByHashRequest.swift in Sources */,
 				2978054723CF1BC7008AE2DD /* ViewController.swift in Sources */,
