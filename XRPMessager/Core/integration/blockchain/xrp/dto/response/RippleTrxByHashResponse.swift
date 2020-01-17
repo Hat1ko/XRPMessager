@@ -6,6 +6,6 @@
 //  Copyright © 2020 Pasha Suprun. All rights reserved.
 //
 
-public struct RippleTrxByHashResponse {
-    public var result: TransactionBody
+public class RippleTrxByHashResponse {
+    public var result: TransactionBody?
 }

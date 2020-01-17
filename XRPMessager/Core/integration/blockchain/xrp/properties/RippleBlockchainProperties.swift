@@ -8,17 +8,25 @@
 
 import Foundation
 
-public struct RippleBlockchainProperties {
+public class RippleBlockchainProperties {
     
-    var nodeList: [String]
+//    init() {
+//        self.method = Method()
+//        self.timeout = Timeout()
+//        self.transactionType = TransactionType()
+//    }
     
-    var uri: String = "https://s.altnet.rippletest.net:51234"
+//    var nodeList: [String]
+    
+    var uri: String? = "https://s.altnet.rippletest.net:51234"
 //    var pathToNode: String =
-    var method: Method
-    var timeout: Timeout
-    var transactionType: TransactionType
+    var method: Method = Method()
+    var timeout: Timeout = Timeout()
+    var transactionType: TransactionType = TransactionType()
     
-    public struct Method{
+    public class Method{
+        init() { }
+        
         var accountInfo: String = "account_info"
         var accountTransactions: String = "account_tx"
         var submit: String = "submit"
@@ -26,12 +34,16 @@ public struct RippleBlockchainProperties {
         var sign: String = "sign"
     }
     
-    public struct Timeout {
+    public class Timeout {
+//        init() { }
+        
         var connect: Int = 10000
         var read: Int = 10000
     }
     
-    public struct TransactionType {
+    public class TransactionType {
+//        init() { }
+        
         var payment: String = "Payment"
         var accountSet: String = "AccountSet"
     }

@@ -9,7 +9,9 @@
 import Foundation
 
 public class RippleBlockchainUriBuilder {
+    private var blockchainProperties: RippleBlockchainProperties = RippleBlockchainProperties()
+    
     public func getRequestUri() -> URL {
-        return URL.init(string: RippleBlockchainProperties.uri)
+        return URL(string: self.blockchainProperties.uri!)!
     }
 }

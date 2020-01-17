@@ -6,11 +6,11 @@
 //  Copyright © 2020 Pasha Suprun. All rights reserved.
 //
 
-public struct RippleTrxByHashRequest {
-    public var method: String
-    public var params: [Param]
+public class RippleTrxByHashRequest {
+    public var method: String?
+    public var params: [Param]?
     
     public struct Param {
-        public var transaction: String  //transactionHash
+        public var transaction: String? //transactionHash
     }
 }

@@ -7,10 +7,10 @@
 //
 
 public struct RippleWithdrawRequest {
-    public var method: String
-    public var params: [Param]
+    public var method: String?
+    public var params: [Param]?
     
     public struct Param {
-        public var tx_blob: String
+        public var tx_blob: String?
     }
 }
